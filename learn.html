@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Study Helper</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-wrapper">
+
+    <!-- Header -->
+    <header class="app-header">
+      <div>
+        <h1>AI Study Helper</h1>
+        <p>Get answers instantly, talk to AI, and create flashcards!</p>
+      </div>
+      <button class="theme-btn">🌙 Dark Mode</button>
+    </header>
+
+    <!-- Subject Navigation -->
+    <nav class="subject-nav">
+      <button class="subject-btn active">Math</button>
+      <button class="subject-btn">Science</button>
+      <button class="subject-btn">History</button>
+      <button class="subject-btn">Languages</button>
+      <button class="subject-btn">Flashcards</button>
+    </nav>
+
+    <!-- Tabs -->
+    <!-- Math Tab -->
+    <section class="tab-content active">
+      <div class="input-card">
+        <h2>Math AI Helper</h2>
+        <textarea placeholder="Type a math question..."></textarea>
+        <div class="btn-group">
+          <button class="ai-btn">Get Answer</button>
+          <button class="voice-btn">🎤 Speak</button>
+        </div>
+      </div>
+      <div class="output-card">
+        <h2>Answer</h2>
+        <div class="ai-output"></div>
+      </div>
+    </section>
+
+    <!-- Science Tab -->
+    <section class="tab-content">
+      <div class="input-card">
+        <h2>Science AI Helper</h2>
+        <textarea placeholder="Type a science question..."></textarea>
+        <div class="btn-group">
+          <button class="ai-btn">Get Answer</button>
+          <button class="voice-btn">🎤 Speak</button>
+        </div>
+      </div>
+      <div class="output-card">
+        <h2>Answer</h2>
+        <div class="ai-output"></div>
+      </div>
+    </section>
+
+    <!-- History Tab -->
+    <section class="tab-content">
+      <div class="input-card">
+        <h2>History AI Helper</h2>
+        <textarea placeholder="Type a history question..."></textarea>
+        <div class="btn-group">
+          <button class="ai-btn">Get Answer</button>
+          <button class="voice-btn">🎤 Speak</button>
+        </div>
+      </div>
+      <div class="output-card">
+        <h2>Answer</h2>
+        <div class="ai-output"></div>
+      </div>
+    </section>
+
+    <!-- Languages Tab -->
+    <section class="tab-content">
+      <div class="input-card">
+        <h2>Language AI Helper</h2>
+        <textarea placeholder="Type a language question..."></textarea>
+        <div class="btn-group">
+          <button class="ai-btn">Get Answer</button>
+          <button class="voice-btn">🎤 Speak</button>
+        </div>
+      </div>
+      <div class="output-card">
+        <h2>Answer</h2>
+        <div class="ai-output"></div>
+      </div>
+    </section>
+
+    <!-- Flashcards Tab -->
+    <section class="tab-content">
+      <div class="flashcards-card">
+        <h2>Flashcards</h2>
+        <div class="flashcard-input-group">
+          <input type="text" id="flashcard-input" placeholder="Enter flashcard text">
+          <button id="add-flashcard">Add</button>
+        </div>
+        <div class="flashcards-scroll"></div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      &copy; 2025 AI Study Helper
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
